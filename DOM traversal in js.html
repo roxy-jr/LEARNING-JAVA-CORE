@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title class="geek">properties of node object</title>
+</head>
+<body bgcolor="pink">
+    <h1 id="mine" align="center">SARIKA PATWA</h1>
+    <p class="myclass" id="no" align="center" title="para">PASSED INTERMEDIATE FROM B.N PUBLIC SCHOOL</p>
+    <ul id="xxx">
+        <li id="lko" > ADITYA PRATAP SINGH</li>
+        <li> ROXY</li>
+        <li id="gog">khusi</li>
+        <li> PUNE</li>
+    </ul>
+    <script>
+        var adi=document.getElementById("xxx");
+        var res=adi.childNodes; // it return all the childNodes of element having id="xxx". and include text node comment node along with element node.
+        console.log(res);
+    </script>
+    </body>
+    </html>
